@@ -21,11 +21,11 @@ This tool automates the creation of a secure proxy by:
 ## 🚀 Installation & Setup
 
 1. **Clone the repository:**
-   git clone https://github.com/malias4/Vultr-Phishing-Investigation-Tool.git
-   cd Vultr-Phishing-Investigation-Tool
+   * `git clone https://github.com/malias4/Vultr-Phishing-Investigation-Tool.git`
+   * `cd Vultr-Phishing-Investigation-Tool`
 
 2. **Move the script to your home directory:**
-   cp investigator.sh ~/investigator.sh
+   * `cp investigator.sh ~/investigator.sh`
 
 3. **Create your configuration file in your home directory (`~/.env`):**
    Create a file named `.env` in your `~/` directory and add the following:
@@ -35,8 +35,8 @@ This tool automates the creation of a secure proxy by:
    * `export SSH_KEY_PATH="$HOME/.ssh/your_private_key_name"`
 
 4. **Make it global:** Add it to your `.zshrc` or `.bashrc` so you can use the tool from anywhere.
-   echo 'source ~/investigator.sh' >> ~/.zshrc
-   source ~/.zshrc
+   * `echo 'source ~/investigator.sh' >> ~/.zshrc`
+   * `source ~/.zshrc`
 
 ---
 
