@@ -26,9 +26,9 @@ This tool automates the creation of a secure sandbox proxy by:
 3. **Create your configuration file in your home directory (`~/.env`):**
    Create a file named `.env` in your `~/` directory and add the following:
 
-   `export VULTR_API_KEY="YOUR_API_KEY_HERE"
-   export SSH_KEY_NAME="Name_of_Key_on_Vultr_Dashboard
-   export SSH_KEY_PATH="$HOME/.ssh/your_private_key_name`
+   * `export VULTR_API_KEY="YOUR_API_KEY_HERE"`
+   * `export SSH_KEY_NAME="Name_of_Key_on_Vultr_Dashboard`
+   * `export SSH_KEY_PATH="$HOME/.ssh/your_private_key_name`
 
 4. **Make it global:** Add it to your `.zshrc` or `.bashrc` so you can use the tool from anywhere.
    echo 'source ~/investigator.sh' >> ~/.zshrc
