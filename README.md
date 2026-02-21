@@ -25,10 +25,10 @@ This tool automates the creation of a secure sandbox proxy by:
 
 3. **Create your configuration file in your home directory (`~/.env`):**
    Create a file named `.env` in your `~/` directory and add the following:
-   
-* export VULTR_API_KEY="YOUR_API_KEY_HERE"
-* export SSH_KEY_NAME="Name_of_Key_on_Vultr_Dashboard"
-* export SSH_KEY_PATH="$HOME/.ssh/your_private_key_name"
+
+   `export VULTR_API_KEY="YOUR_API_KEY_HERE"`
+   `export SSH_KEY_NAME="Name_of_Key_on_Vultr_Dashboard`
+   `export SSH_KEY_PATH="$HOME/.ssh/your_private_key_name`
 
 4. **Make it global:** Add it to your `.zshrc` or `.bashrc` so you can use the tool from anywhere.
    echo 'source ~/investigator.sh' >> ~/.zshrc
@@ -52,20 +52,14 @@ For the tunnel to work, you must force your browser to use the SOCKS5 proxy and 
 
 ## 📖 Usage Guide
 
-* help-investigation
-* Help menu. Shows all commands.
+* `help-investigation` Help menu. Shows all commands.
 
-* locations-investigation
-* Lists all supported global region codes.
+* `locations-investigation` Lists all supported global region codes.
 
-* start-investigation [code]
-* Deploys a server (e.g., `start-investigation de` for Germany). It will prompt for your SSH passphrase once per session.
+* `start-investigation [code]` Deploys a server (e.g., `start-investigation de` for Germany). It will prompt for your SSH passphrase once per session.
 
-* watch-investigation
-* Starts the Keep-Alive monitor. If your VM goes to sleep, this will automatically detect the dropped tunnel and reconnect it when you wake the machine.
+* `watch-investigation` Starts the Keep-Alive monitor. If your VM goes to sleep, this will automatically detect the dropped tunnel and reconnect it when you wake the machine.
 
-* status-investigation
-* Shows your active Vultr IP and location.
+* `status-investigation` Shows your active Vultr IP and location.
 
-* stop-investigation
-* Destroys the server. **Always run this when your investigation is complete to save $ {the point of this project}.**
+* `stop-investigation` Destroys the server. **Always run this when your investigation is complete to save $ {the point of this project}.**
