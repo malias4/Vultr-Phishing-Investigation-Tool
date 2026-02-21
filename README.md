@@ -1,6 +1,6 @@
 # Vultr Phishing Investigation Tool
 
-An automated Bash utility for temporary, dual-stack (IPv4/IPv6) infrastructure for phishing investigations. (tested on Kali)
+An automated Bash utility for temporary, dual-stack (IPv4/IPv6) infrastructure for phishing investigations. (tested in Kali)
 
 ## 🛡️ Purpose & OPSEC
 This tool automates the creation of a secure sandbox proxy by:
