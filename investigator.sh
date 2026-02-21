@@ -47,7 +47,7 @@ function _get_location_name() {
 
 function help-investigation() {
     echo -e "${CYAN}${BOLD}=== VULTR INVESTIGATION TOOL HELP ===${NC}"
-    echo -e "  ${BOLD}start-investigation [code]${NC}  : Deploy server"
+    echo -e "  ${BOLD}start-investigation [code]${NC} : Deploy server"
     echo -e "  ${BOLD}stop-investigation${NC}         : Destroy server"
     echo -e "  ${BOLD}reconnect-investigation${NC}    : Fix tunnel manually"
     echo -e "  ${BOLD}watch-investigation${NC}        : Start Keep-Alive Auto-Reconnect Monitor"
