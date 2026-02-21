@@ -3,7 +3,7 @@
 An automated Bash utility for temporary, dual-stack (IPv4/IPv6) infrastructure for phishing investigations. (tested in Kali)
 
 ## 🛡️ Purpose & OPSEC
-This tool automates the creation of a secure sandbox proxy by:
+This tool automates the creation of a secure proxy by:
 1. Deploying a VPS on Vultr in one of 20+ global regions.
 2. Enabling **IPv6** to bypass sophisticated phishing kits that block IPv4 datacenter traffic.
 3. Establishing an SSH SOCKS5 tunnel with an automated "Keep-Alive" monitor.
