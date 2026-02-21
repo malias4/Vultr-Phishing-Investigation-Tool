@@ -2,8 +2,6 @@
 
 An automated Bash utility for temporary, dual-stack (IPv4/IPv6) infrastructure for phishing investigations. (tested in Kali)
 
----
-
 ## 🛡️ Purpose & OPSEC
 This tool automates the creation of a secure proxy by:
 1. Deploying a VPS on Vultr in one of 20+ global regions.
