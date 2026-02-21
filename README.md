@@ -66,4 +66,4 @@ For the tunnel to work, you must force your browser to use the SOCKS5 proxy and 
 
 * `status-investigation` Shows your active Vultr IP and location.
 
-* `stop-investigation` Destroys the server. **Always run this when your investigation is complete. Don't buy Bezos another yacht to park out on the pier, save that sixty bucks instead to buy your peers a 🍺**
+* `stop-investigation` Destroys the server. ***Don't buy Bezos another yacht to park out on the pier, save that sixty bucks instead to buy your peers a 🍺***
