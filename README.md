@@ -2,17 +2,23 @@
 
 An automated Bash utility for temporary, dual-stack (IPv4/IPv6) infrastructure for phishing investigations. (tested in Kali)
 
+---
+
 ## 🛡️ Purpose & OPSEC
 This tool automates the creation of a secure proxy by:
 1. Deploying a VPS on Vultr in one of 20+ global regions.
 2. Enabling **IPv6** to bypass sophisticated phishing kits that block IPv4 datacenter traffic.
 3. Establishing an SSH SOCKS5 tunnel with an automated "Keep-Alive" monitor.
 
+---
+
 ## ⚙️ Prerequisites
 1. **Vultr Account & API Key**: Create an API key in your dashboard. **CRITICAL:** Add your corporate/home IP to the Vultr API Access Control list, or the script will be blocked.
 2. **Vultr CLI**: Ensure `vultr-cli` is installed.
 3. **Required Packages**: `jq`, `curl`, `netcat-openbsd`.
 4. **SSH Key**: Generate an SSH key (`ssh-keygen`), add a passphrase, and upload the public key to your Vultr account.
+
+---
 
 ## 🚀 Installation & Setup
 
